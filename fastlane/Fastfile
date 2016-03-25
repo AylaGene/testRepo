@@ -47,7 +47,8 @@ platform :android do
 
   desc "make a hotfix release"
   lane :hotrelease do
-	  v="v1.0.20"
+	  release_number="1.0.21"
+	  v="v"+release_number
 	  ensure_git_branch(branch: "master")
 		git_add(path: ".")
 		git_commit(path: ".", message: v+" changes")
@@ -57,10 +58,14 @@ platform :android do
 		push_to_git_remote(remote: "public");
 		#draft publish which will create the tag on public
 		set_github_release(api_token: ENV["GITHUB_API_TOKEN"], repository_name: "AylaGene/testRepo_Public", tag_name: v, name: v+" Release", description: "release notes will go here one by one")
-		# pull the tag to local
+		# pull tag to local
 		git_pull(only_tags: true, remote: "public", branch: "master")
-		# git_pull(only_tags: true)
+		# push tag to origin
 		push_to_git_remote(remote: "origin");
+
+		git_command(full_command: "git checkout -b release/#{release_number} v")
+		git_command(full_command: "git push -u origin release/#{release_number}")
+		git_command(full_command: "git push public release/#{release_number}")
   end
 
   # You can define as many lanes as you want
