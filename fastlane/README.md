@@ -21,9 +21,9 @@ Submit a new Beta Build to Crashlytics Beta
 fastlane android deploy
 ```
 Deploy a new version to the Google Play
-### android hotfix
+### android hotrelease
 ```
-fastlane android hotfix
+fastlane android hotrelease
 ```
 make a hotfix release
 
