@@ -3,49 +3,59 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000639">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000525">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000277">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000233">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: ensure_git_branch" time="0.012111">
+      <testcase classname="fastlane.lanes" name="2: ensure_git_branch" time="0.021285">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: git_add" time="0.039198">
+      <testcase classname="fastlane.lanes" name="3: git_add" time="0.064637">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.161796">
+      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.227872">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: push_to_git_remote" time="1.998556">
+      <testcase classname="fastlane.lanes" name="5: push_to_git_remote" time="2.054422">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: git_pull" time="1.264444">
+      <testcase classname="fastlane.lanes" name="6: git_pull" time="1.207695">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: ensure_git_status_clean" time="0.018951">
+      <testcase classname="fastlane.lanes" name="7: ensure_git_status_clean" time="0.02152">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="1.745435">
+      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="2.641072">
         
-          <failure message="/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/actions/actions_helper.rb:33:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:129:in `block in execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:57:in `block (2 levels) in parsing_binding'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:52:in `block in execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane_manager.rb:46:in `cruise_lane'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:38:in `block (2 levels) in run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:153:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/runner.rb:428:in `run_active_command'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane_core-0.39.0/lib/fastlane_core/ui/fastlane_runner.rb:23:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:156:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:162:in `&lt;top (required)&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `load'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'git push public master:master --tags' was 1 instead of 0.&#10;To https://github.com/AylaGene/testRepo_Public.git&#10;   e59d906..1e7ceb0  master -&gt; master&#10; ! [rejected]        v1.0.09 -&gt; v1.0.09 (already exists)&#10;error: failed to push some refs to 'https://github.com/AylaGene/testRepo_Public.git'&#10;hint: Updates were rejected because the tag already exists in the remote.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: set_github_release" time="0.559029">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: git_pull" time="0.001308">
+        
+          <failure message="/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/actions/actions_helper.rb:33:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:129:in `block in execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:62:in `block (2 levels) in parsing_binding'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:52:in `block in execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane_manager.rb:46:in `cruise_lane'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:38:in `block (2 levels) in run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:153:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/runner.rb:428:in `run_active_command'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane_core-0.39.0/lib/fastlane_core/ui/fastlane_runner.rb:23:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:156:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:162:in `&lt;top (required)&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `load'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Could not find option 'remote' in the list of available options: only_tags" />
         
       </testcase>
     
