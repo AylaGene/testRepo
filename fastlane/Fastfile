@@ -47,7 +47,7 @@ platform :android do
 
   desc "make a hotfix release"
   lane :hotrelease do
-	  v="v1.0.04"
+	  v="v1.0.05"
 	  ensure_git_branch(branch: "master")
 		git_add(path: ".")
 		git_commit(path: ".", message: v+" changes")
@@ -58,6 +58,7 @@ platform :android do
 		push_to_git_remote(remote: "origin");
 		push_to_git_remote(remote: "public");
 		#draft publish
+		set_github_release(api_token: "b98d2abbd887a0be508209999e803a9ff9b7e90f", repository_name: "testRepo_Public", tag_name: v, name: v+" Release", description: "release notes will go here one by one")
   end
 
   # You can define as many lanes as you want
