@@ -47,7 +47,7 @@ platform :android do
 
   desc "make a hotfix release"
   lane :hotrelease do
-	  release_number="1.0.21"
+	  release_number="1.0.22"
 	  v="v"+release_number
 	  ensure_git_branch(branch: "master")
 		git_add(path: ".")
