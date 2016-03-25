@@ -58,7 +58,7 @@ platform :android do
 		push_to_git_remote(remote: "origin");
 		push_to_git_remote(remote: "public");
 		#draft publish
-		set_github_release(api_token:"7c64bdea5c231d1f8f2f4fbdac35eb55e83a62f7", repository_name: "AylaGene/testRepo_Public", tag_name: v, name: v+" Release", description: "release notes will go here one by one")
+		set_github_release(api_token: ENV["GITHUB_API_TOKEN"], repository_name: "AylaGene/testRepo_Public", tag_name: v, name: v+" Release", description: "release notes will go here one by one")
   end
 
   # You can define as many lanes as you want
