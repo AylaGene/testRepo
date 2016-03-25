@@ -3,69 +3,69 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000736">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000733">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000264">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000253">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: ensure_git_branch" time="0.012261">
+      <testcase classname="fastlane.lanes" name="2: ensure_git_branch" time="0.009512">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: git_add" time="0.036084">
+      <testcase classname="fastlane.lanes" name="3: git_add" time="0.034662">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.194775">
+      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.177136">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: push_to_git_remote" time="3.248488">
+      <testcase classname="fastlane.lanes" name="5: push_to_git_remote" time="2.381437">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: git_pull" time="1.272175">
+      <testcase classname="fastlane.lanes" name="6: git_pull" time="1.302387">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: ensure_git_status_clean" time="0.019397">
+      <testcase classname="fastlane.lanes" name="7: ensure_git_status_clean" time="0.018784">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="2.007474">
+      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="1.762463">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="9: set_github_release" time="0.528225">
+      <testcase classname="fastlane.lanes" name="9: set_github_release" time="0.522593">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: git_pull" time="0.629696">
+      <testcase classname="fastlane.lanes" name="10: git_pull" time="0.546225">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: push_to_git_remote" time="1.888737">
+      <testcase classname="fastlane.lanes" name="11: push_to_git_remote" time="1.916846">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: git_command" time="0.000613">
+      <testcase classname="fastlane.lanes" name="12: git_command" time="0.011223">
         
-          <failure message="/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/actions/actions_helper.rb:33:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:129:in `block in execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:66:in `block (2 levels) in parsing_binding'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:52:in `block in execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane_manager.rb:46:in `cruise_lane'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:38:in `block (2 levels) in run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:153:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/runner.rb:428:in `run_active_command'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane_core-0.39.0/lib/fastlane_core/ui/fastlane_runner.rb:23:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:156:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:162:in `&lt;top (required)&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `load'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;no implicit conversion of String into Array" />
+          <failure message="/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/actions/actions_helper.rb:33:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:129:in `block in execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:128:in `execute_action'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:66:in `block (2 levels) in parsing_binding'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane.rb:36:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:52:in `block in execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `chdir'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/runner.rb:46:in `execute'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/lane_manager.rb:46:in `cruise_lane'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:38:in `block (2 levels) in run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/command.rb:153:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/runner.rb:428:in `run_active_command'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane_core-0.39.0/lib/fastlane_core/ui/fastlane_runner.rb:23:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/commander-4.3.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:156:in `run'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/gems/fastlane-1.68.0/bin/fastlane:162:in `&lt;top (required)&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `load'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/GWang/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'git checkout -b release/1.0.22 v' was 128 instead of 0.&#10;fatal: Cannot update paths and switch to branch 'release/1.0.22' at the same time.&#10;Did you intend to checkout 'v' which can not be resolved as commit?&#10;" />
         
       </testcase>
     
