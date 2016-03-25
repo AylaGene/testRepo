@@ -63,7 +63,7 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 770
+    defaultConfig.versionCode = 771
 
     sourceSets.main {
         jniLibs.srcDir 'libs'

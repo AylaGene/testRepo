@@ -47,7 +47,7 @@ platform :android do
 
   desc "make a hotfix release"
   lane :hotrelease do
-	  v="v1.0.03"
+	  v="v1.0.04"
 	  ensure_git_branch(branch: "master")
 		git_add(path: ".")
 		git_commit(path: ".", message: v+" changes")
@@ -55,8 +55,8 @@ platform :android do
 		git_pull
 		ensure_git_status_clean
 		add_git_tag(tag: v)
-		push_git_tags(remote: "origin", tag: v)
-		push_git_tags(remote: "public", tag: v)
+		push_to_git_remote(remote: "origin");
+		push_to_git_remote(remote: "public");
 		#draft publish
   end
 
