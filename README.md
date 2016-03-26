@@ -1,32 +1,44 @@
-## Telegram messenger for Android
+iOS Mobile Control App (iMCA)
+=============================
 
-[Telegram](https://telegram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
-This repo contains the official source code for [Telegram App for Android](https://play.google.com/store/apps/details?id=org.telegram.messenger).
+Build
+=====
+Set environment variable AYLA_LIB_BRANCH based on the release as listed below. The Podfile will default to master branch unless specified. This is fine when building the latest version.
 
-##Creating your Telegram Application
+$ export AYLA_LIB_BRANCH=release/4.3.20
+$ pod install
+Open iMCA.xcworkspace to launch xCode
 
-We welcome all developers to use our API and source code to create applications on our platform.
-There are several things we require from **all developers** for the moment.
 
-1. [**Obtain your own api_id**](https://core.telegram.org/api/obtaining_api_id) for your application.
-2. Please **do not** use the name Telegram for your app — or make sure your users understand that it is unofficial.
-3. Kindly **do not** use our standard logo (white paper plane in a blue circle) as your app's logo.
-3. Please study our [**security guidelines**](https://core.telegram.org/mtproto/security_guidelines) and take good care of your users' data and privacy.
-4. Please remember to publish **your** code too in order to comply with the licences.
+Documentation
+=============
+supported iOS version: 8 and higher;
+Read “Getting Started with the Ayla Mobile Control.docx” in the root iMCA application repo directory.
+Read “Ayla Mobile Library for iOS.docx”in the root iAML library repo directory.
+AppleDoc for the libraries is available. After 'pod install' follow the instructions at:
+  <repo>/Pods/iOS_AylaLibrary/README.md
 
-### API, Protocol documentation
 
-Telegram API manuals: https://core.telegram.org/api
+Release Notes
+=============
+2.0.2 Release
+1: add fooda
+2: add moneya
 
-MTproto protocol manuals: https://core.telegram.org/mtproto
+2.0.1 Release
+1: add food
+2: add money
+iMCA v4.40: AYLA_LIB_BRANCH=release/4.4.00 (01/26/2016)
+- Adds share with role support.
 
-### Usage
+iMCA v4.32: AYLA_LIB_BRANCH=release/4.3.20 (11/25/2015)
+- Rebuild with release/4.3.20
 
-**Beware of using the dev branch and uploading it to any markets, in many cases it not will work as expected**.
+iMCA v4.3.00: AYLA_LIB_BRANCH=release/4.3.00 (10/18/2015)
+- Fixed default service issue in settings page
+- Reassociate semaphore when a new thread is triggered
 
-First of all, take a look at **src/main/java/org/telegram/messenger/BuildVars.java** and fill it with correct values.
-Import the root folder into your IDE (tested on Android Studio), then run project.
+iMCA v4.20/2: AYLA_LIB_BRANCH=release/4.2.1,  (09/08/2015)
+- Include library Hotfix for iOS 9 support
+- Modify Wi-Fi setup to use new method +isConnectedToPotentialNewDevice
 
-### Localization
-
-We moved all translations to https://www.transifex.com/projects/p/telegram/. Please use it.
