@@ -52,6 +52,12 @@ platform :android do
 	  v="v"+release_number
 		git_command(full_command: "git checkout master")
 	  ensure_git_branch(branch: "master")
+
+		# modify version number and README.md file for release ntoes
+    file_contents = File.read("README.md")
+    file_contents.gsub!(/Release Notes\n=============/, "Release Notes\n=============\n" + options[:release_title] + "\n" + options[:release_notes])
+    File.write("README.md", file_contents)
+
 		git_add(path: ".")
 		git_commit(path: ".", message: v+" changes")
 		push_to_git_remote(remote: "origin");
