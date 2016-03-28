@@ -54,10 +54,10 @@ platform :android do
 	  ensure_git_branch(branch: "master")
 
 		# modify version number and README.md file for release ntoes
-    file_contents = File.read("README.md")
+    file_contents = File.read("../README.md")
 		puts file_contents
     file_contents.gsub!(/Release Notes\n=============/, "Release Notes\n=============\n" + options[:release_title] + "\n" + options[:release_notes])
-    File.write("README.md", file_contents)
+    File.write("../README.md", file_contents)
 
 		git_add(path: ".")
 		git_commit(path: ".", message: v+" changes")
