@@ -25,7 +25,9 @@ Deploy a new version to the Google Play
 ```
 fastlane android hotrelease
 ```
-make a hotfix release, developers make a PR from hotfix branch to master branch, merge PR, than do this
+make a hotfix release, developers make a PR from hotfix branch to master branch, merge PR, than run command like
+
+ fastlane hotrelease version_number:"1.0.28" release_title:"1.0.28 Release" release_notes:"1: eat well; 2: sleep well.
 
 ----
 

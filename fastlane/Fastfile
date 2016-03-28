@@ -45,7 +45,8 @@ platform :android do
     supply
   end
 
-  desc "make a hotfix release, developers make a PR from hotfix branch to master branch, merge PR, than do this"
+  desc "make a hotfix release, developers make a PR from hotfix branch to master branch, merge PR, than run command like"
+	desc " fastlane hotrelease version_number:\"1.0.28\" release_title:\"1.0.28 Release\" release_notes:\"1: eat well; 2: sleep well."
   lane :hotrelease do |options|
 	  release_number= options[:version_number]
 	  v="v"+release_number
