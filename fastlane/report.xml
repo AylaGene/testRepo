@@ -3,82 +3,82 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.0005">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000646">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000407">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000308">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_command" time="0.101669">
+      <testcase classname="fastlane.lanes" name="2: git_command" time="0.119234">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: ensure_git_branch" time="0.007671">
+      <testcase classname="fastlane.lanes" name="3: ensure_git_branch" time="0.017901">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_add" time="0.030676">
+      <testcase classname="fastlane.lanes" name="4: git_add" time="0.06791">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.172808">
+      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.149044">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: push_to_git_remote" time="2.213592">
+      <testcase classname="fastlane.lanes" name="6: push_to_git_remote" time="2.03529">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: git_pull" time="1.314992">
+      <testcase classname="fastlane.lanes" name="7: git_pull" time="1.279443">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: ensure_git_status_clean" time="0.021537">
+      <testcase classname="fastlane.lanes" name="8: ensure_git_status_clean" time="0.020441">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="9: push_to_git_remote" time="1.908288">
+      <testcase classname="fastlane.lanes" name="9: push_to_git_remote" time="1.799501">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: set_github_release" time="0.525651">
+      <testcase classname="fastlane.lanes" name="10: set_github_release" time="0.529811">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: git_command" time="0.6859">
+      <testcase classname="fastlane.lanes" name="11: git_command" time="0.654475">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: push_to_git_remote" time="1.882824">
+      <testcase classname="fastlane.lanes" name="12: push_to_git_remote" time="1.906738">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="13: git_command" time="0.087998">
+      <testcase classname="fastlane.lanes" name="13: git_command" time="0.09017">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="14: git_command" time="1.745141">
+      <testcase classname="fastlane.lanes" name="14: git_command" time="1.823439">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="15: git_command" time="1.8075">
+      <testcase classname="fastlane.lanes" name="15: git_command" time="1.913569">
         
       </testcase>
     

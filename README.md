@@ -21,8 +21,6 @@ AppleDoc for the libraries is available. After 'pod install' follow the instruct
 
 Release Notes
 =============
-1.0.32 Release
-1: fix abc; 2: fix def
 2.0.2 Release
 1: add fooda
 2: add moneya
