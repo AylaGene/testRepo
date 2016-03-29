@@ -24,6 +24,7 @@ Release Notes
 1.1.00 release
 1) rice
 2) fruit
+3) noodle
 
 1.0.32 Release
 1: fix abc; 2: fix def
