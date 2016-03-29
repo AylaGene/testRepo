@@ -21,6 +21,10 @@ AppleDoc for the libraries is available. After 'pod install' follow the instruct
 
 Release Notes
 =============
+1.6.00 release
+1) test
+2) owl
+
 1.4.00 release
 1) time
 2) domain
