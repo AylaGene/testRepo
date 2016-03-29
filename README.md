@@ -21,6 +21,9 @@ AppleDoc for the libraries is available. After 'pod install' follow the instruct
 
 Release Notes
 =============
+1.8.01 releae
+1: sunny; 2: windy
+
 1.6.00 release
 1) test
 2) owl
