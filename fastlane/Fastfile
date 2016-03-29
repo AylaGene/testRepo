@@ -99,16 +99,16 @@ platform :android do
 		#push_to_git_remote(remote: "origin");
 		git_pull
 		ensure_git_status_clean
-		push_to_git_remote(remote: "public");
+#		push_to_git_remote(remote: "public");
 		#draft publish which will create the tag on public
-		set_github_release(api_token: ENV["GITHUB_API_TOKEN"], repository_name: "AylaGene/testRepo_Public", tag_name: v, name: v+" Release", description: "see README.md for details")
+#		set_github_release(api_token: ENV["GITHUB_API_TOKEN"], repository_name: "AylaGene/testRepo_Public", tag_name: v, name: v+" Release", description: "see README.md for details")
 		# pull tag to local
-		git_command(full_command: "git pull public master --tags");
+#		git_command(full_command: "git pull public master --tags");
 		# push tag to origin
-		push_to_git_remote(remote: "origin");
+#		push_to_git_remote(remote: "origin");
 
     # push a release branch
-		git_command(full_command, "git checkout release/#{release_number}")
+		git_command(full_command: "git checkout release/#{release_number}")
 		git_pull
 	  ensure_git_branch(branch: "release/#{release_number}")
 		ensure_git_status_clean
