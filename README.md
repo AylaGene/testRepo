@@ -21,6 +21,10 @@ AppleDoc for the libraries is available. After 'pod install' follow the instruct
 
 Release Notes
 =============
+1.1.00 release
+1) rice
+2) fruit
+
 1.0.32 Release
 1: fix abc; 2: fix def
 2.0.2 Release
